@@ -5,6 +5,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         sc.nextInt();
         sc.nextInt();
-        System.out.println(sc.nextInt()*sc.nextInt());
+        System.out.println(sc.nextBigInteger().multiply(sc.nextBigInteger()));
     }
 }
