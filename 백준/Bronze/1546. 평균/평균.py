@@ -1,0 +1,5 @@
+n = input()
+ml = list(map(int,input().split()))
+mm = max(ml)
+sum = sum (ml)
+print(sum / mm / int(n) * 100)
